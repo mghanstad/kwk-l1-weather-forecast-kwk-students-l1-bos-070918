@@ -38,5 +38,5 @@ end
 def convert_temp(weather)
   temperature = weather[:temperature_farenheit]
   celsius = (temperature - 32) * 5/9
-  celsius.round(2)
+  celsius.round(4)
 end
